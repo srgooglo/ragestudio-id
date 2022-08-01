@@ -1,9 +1,9 @@
 import { default as RolesController } from "./RolesController"
 import { default as SessionController } from "./SessionController"
-import { default as UserController } from "./UserController"
+import { default as AccountController } from "./AccountController"
 
 export default [
-    RolesController,
     SessionController,
-    UserController,
+    AccountController,
+    RolesController,
 ]
