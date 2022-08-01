@@ -17,6 +17,6 @@ const schemas = getSchemas()
 export const Config = mongoose.model("Config", schemas.Config, "config")
 
 // users
-export const User = mongoose.model("User", schemas.User, "accounts")
+export const User = mongoose.model("Account", schemas.Account, "accounts")
 export const Session = mongoose.model("Session", schemas.Session, "sessions")
 export const Role = mongoose.model("Role", schemas.Role, "roles")
